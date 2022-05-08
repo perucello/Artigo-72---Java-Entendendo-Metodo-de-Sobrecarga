@@ -1,0 +1,36 @@
+package com.educaciencia.java.sobrecarga;
+
+/**
+ * EducaCiência FastCode
+ * Cenário: 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre dois atributos, 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre três atributos, 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre quatro atributos,
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre cinco atributos.
+ * 
+ * Nós utilizaremos de Método de Sobrecarga.
+ * 
+ */
+
+public class Run_ComSobrecarga {
+
+	public static void main(String[] args) {
+
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

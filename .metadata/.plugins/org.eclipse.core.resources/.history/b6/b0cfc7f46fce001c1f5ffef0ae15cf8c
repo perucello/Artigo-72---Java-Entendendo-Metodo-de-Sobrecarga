@@ -1,0 +1,54 @@
+package com.educaciencia.java.sobrecarga;
+
+/**
+ * EducaCiência FastCode
+ * Cenário: 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre dois atributos, 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre três atributos, 
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre quatro atributos,
+ * - Realizar Soma,Subtração,Divisão e multiplicação entre cinco atributos.
+ * 
+ * Nós não utilizaremos de Método de Sobrecarga.
+ * 
+ */
+
+public class Run_SemSobrecarga {
+
+	public static void main(String[] args) {
+
+		int n1 = 100;
+		int n2 = 20;
+		int n3 = 2;
+		int n4 = 1;
+		int n5 = 2;
+		calculaCincoAtributos(n1, n2, n3, n4, n5);
+	}
+	
+	/** Nesse metodo, iremos realizar calculos aritimeticos de cinco atributos que receberemos externamente*/
+	public static void calculaCincoAtributos(int n1, int n2, int n3, int n4, int n5) {
+		
+		int soma = n1 + n2 + n3 + n4 + n5;
+		int subtracao = n1 - n2 - n3 - n4 - n5;
+		int divisao = n1 / n2 / n3 / n4 / n5;
+		int multiplicacao = n1 * n2 * n3 * n4 * n5;
+		System.out.println("*********** Cinco atributos de Entrada ***********");
+		System.out.println("A soma dos numeros é: " + soma);
+		System.out.println("A subtração dos numeros é: " + subtracao);
+		System.out.println("A divisao dos numeros é: " + divisao);
+		System.out.println("A multiplicacao dos numeros é: " + multiplicacao);
+		System.out.println("*************************************************");
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
